@@ -24,5 +24,20 @@ public class Main {
         curso.matricularAlunoEmDisciplina(aluno1, prog2);
         curso.matricularAlunoEmDisciplina(aluno2, prog2);
 
+        //imprime a lista de alunos matriculados no curso
+        System.out.println("Alunos matriculados no curso:");
+        for(Disciplina disciplina : curso.getListaDeDisciplinas()){
+            for(Matriculado matriculado : disciplina.getListaDeMatriculados()){
+                System.out.println(matriculado.getAluno().getNome());
+            }
+        }
+
+        //imprime a lista de alunos matriculados na disciplina de programacao 2
+        System.out.println("Alunos matriculados em Programacao 2:");
+        for(Matriculado matriculado : prog2.getListaDeMatriculados()){
+            System.out.println(matriculado.getAluno().getNome());
+        }
+
+
     }
 }
