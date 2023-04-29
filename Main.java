@@ -3,10 +3,26 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args){
-        System.out.println("Hello, World!");
+        
+        //criar um curso
+        Curso curso = new Curso("Ciencia da Computacao", 4);
 
-        Aluno aluno = new Aluno("1000", "Jose", "Jopinville", "0800", "gmail");
+        //criar disciplinas
+        Disciplina prog1 = new Disciplina(null, "Programacao 1", 0, null, null);
+        Disciplina prog2 = new Disciplina(null, "Programacao 2", 0, null, null);
 
-        System.out.println(aluno.getNome());
+        //adicionar as disciplinas ao curso
+        curso.adicionarDisciplina(prog1);
+        curso.adicionarDisciplina(prog2);
+
+        //criar alunos
+        Aluno aluno1 = new Aluno("0001", "Joao", null, null, null);
+        Aluno aluno2 = new Aluno("0002", "Maria", null, null, null);
+        
+        //matricular os alunos em disciplinas
+        curso.matricularAlunoEmDisciplina(aluno1, prog1);
+        curso.matricularAlunoEmDisciplina(aluno1, prog2);
+        curso.matricularAlunoEmDisciplina(aluno2, prog2);
+
     }
 }
