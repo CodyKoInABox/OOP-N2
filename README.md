@@ -3,7 +3,7 @@
 ##### Instructions  
 O objetivo é que você pratique os conceitos de herança, polimorfismo, getters/setters e construtores que são essenciais para o desenvolvimento de aplicações Java. Caso queira usar herança e diminuir código potencialmente duplicado fique a vontade.
 
-Crie as classes e implemente os seguintes atributos e métodos:
+#### <ins>Crie as classes e implemente os seguintes atributos e métodos:</ins>
 
 ### Classe Aluno
 ##### A classe Aluno deve ter os seguintes atributos:
