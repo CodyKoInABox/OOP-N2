@@ -1,12 +1,12 @@
 # Java exercise for school
 
-Instructions  
+##### Instructions  
 O objetivo é que você pratique os conceitos de herança, polimorfismo, getters/setters e construtores que são essenciais para o desenvolvimento de aplicações Java. Caso queira usar herança e diminuir código potencialmente duplicado fique a vontade.
 
 Crie as classes e implemente os seguintes atributos e métodos:
 
 ### Classe Aluno
-A classe Aluno deve ter os seguintes atributos:
+##### A classe Aluno deve ter os seguintes atributos:
 
 | Atributo  | Tipo   |
 |-----------|--------|
@@ -16,13 +16,13 @@ A classe Aluno deve ter os seguintes atributos:
 | Telefone  | String |
 | Email     | String |
 
-E os seguintes métodos:
+##### E os seguintes métodos:
 
 - Construtor
 - Getters e setters para cada atributo
 
 ### Classe Professor
-A classe Professor deve ter os seguintes atributos:
+##### A classe Professor deve ter os seguintes atributos:
 
 | Atributo  | Tipo   |
 |-----------|--------|
@@ -32,13 +32,13 @@ A classe Professor deve ter os seguintes atributos:
 | Telefone  | String |
 | Email     | String |
 
-E os seguintes métodos:
+##### E os seguintes métodos:
 
 - Construtor
 - Getters e setters para cada atributo
 
 ### Classe Disciplina
-A classe Disciplina deve ter os seguintes atributos:
+##### A classe Disciplina deve ter os seguintes atributos:
 
 | Atributo              | Tipo              |
 |-----------------------|-------------------|
@@ -48,14 +48,14 @@ A classe Disciplina deve ter os seguintes atributos:
 | Professor             | Professor         |
 | Lista de Matriculados | List<Matriculado> |
 
-E os seguintes métodos:
+##### E os seguintes métodos:
 
 - Construtor
 - Método para adicionar matriculado na disciplina
 - Getters e setters para cada atributo
 
 ### Classe Curso
-A classe Curso deve ter os seguintes atributos:
+##### A classe Curso deve ter os seguintes atributos:
 
 | Atributo             | Tipo             |
 |----------------------|------------------|
@@ -63,7 +63,7 @@ A classe Curso deve ter os seguintes atributos:
 | Duração              | int              |
 | Lista de Disciplinas | List<Disciplina> |
 
-E os seguintes métodos:
+##### E os seguintes métodos:
 
 - Construtor
 - Método para adicionar disciplina ao curso
@@ -71,7 +71,7 @@ E os seguintes métodos:
 - Getters e setters para cada atributo
 
 ### Classe Matriculado
-A classe Matriculado deve ter os seguintes atributos:
+##### A classe Matriculado deve ter os seguintes atributos:
 
 | Atributo   | Tipo       |
 |------------|------------|
@@ -80,7 +80,7 @@ A classe Matriculado deve ter os seguintes atributos:
 | Ano        | int        |
 | Semestre   | int        |
 
-E os seguintes métodos:
+##### E os seguintes métodos:
 
 - Construtor
 - Getters e setters para cada atributo
